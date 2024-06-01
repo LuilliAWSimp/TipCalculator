@@ -3,36 +3,39 @@
   font-family: Arial, sans-serif;
 }
 
-.tip-calculator {
+.home-screen, .tip-screen {
   display: inline-block;
   text-align: left;
   border: 1px solid #ccc;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
 }
 
-.tip-calculator h1 {
+.home-screen h1, .tip-screen h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.tip-calculator div {
+.home-screen div, .tip-screen div {
   margin-bottom: 10px;
 }
 
-.tip-calculator label {
+.home-screen label, .tip-screen label {
   display: block;
   margin-bottom: 5px;
 }
 
-.tip-calculator input {
+.home-screen input, .tip-screen input {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
 }
 
-.tip-calculator p {
-  font-size: 18px;
-  margin: 10px 0;
+.home-screen button, .tip-screen button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
 }
